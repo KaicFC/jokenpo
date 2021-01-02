@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
             (opcaoApp == "papel" && opcaoUsuario == "pedra") ||
             (opcaoApp == "pedra" && opcaoUsuario == "tesoura")
         ){
-            textResultado.setText("Você perder :( ");
+            textResultado.setText("Você perdeu :( ");
         }else if(
             (opcaoUsuario == "tesoura" && opcaoApp == "papel") ||
             (opcaoUsuario == "papel" && opcaoApp == "pedra") ||
